@@ -1,6 +1,6 @@
 # VALORANT Protocol — Agent Registry
 
-A minimal, responsive web showcase and lore dossier for 15 VALORANT Protocol operatives. Built with HTML, CSS, and modern JavaScript.
+A minimal, responsive web showcase and lore dossier for 15 VALORANT Protocol operatives. Built with pure HTML, CSS, and JavaScript with zero external frameworks or dependencies.
 
 ## Features
 
@@ -13,25 +13,19 @@ A minimal, responsive web showcase and lore dossier for 15 VALORANT Protocol ope
 
 ## Getting Started
 
+No build process or installation is required.
+
 1. Clone or download this repository.
 2. Open `index.html` in your web browser.
 
-Alternatively, run a simple local HTTP server:
-
-```bash
-# Python
-python -m http.server 3000
-
-# Node.js
-npx serve .
-```
 
 ## Project Structure
 
 - `index.html` — Page markup, navigation, showcase container, and footer.
 - `styles.css` — Design system variables, layout, and animations.
 - `script.js` — Agent dataset, orbital scroll calculations, and filtering logic.
+ 
 
-## Credits
+![alt text](image.png)
 
-VALORANT and character assets are property of Riot Games, Inc. This is an unofficial fan project.
+![alt text](image-1.png) Agent - Reyna 
