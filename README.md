@@ -12,20 +12,6 @@ No bloat, no 800mb node_modules folder, just pure front-end goodness that runs f
 
 ---
 
-## Features That Actually Hit (Unlike Your Vandal Spray)
-
-- **Dual-Orbit Circular Scroll**: Operative names and portraits spinning in 3D sync. Smoother than your Jett dashing directly into a Cypher tripwire.
-- **Lore Dossiers for 15 Agents**: Real names, hometowns, radiant powers, and classified backstories. Finally learn who Brimstone actually is before he drops an orbital strike on your head.
-- **Role Filters (For When Team Comp Actually Matters)**:
-  - **Controllers**: For the smoke mains carrying the team's mental health on their backs.
-  - **Duelists**: For the players who locked Reyna before the select screen even loaded.
-  - **Initiators**: For the lineup Larrys who spent 40 hours in custom games just to recon dart an empty site.
-  - **Sentinels**: For the Cyphers and Killjoys holding flank while everyone else pushes through a smoke and dies.
-- **Micro-Interactions**: Hover over any card for a 3D tilt and a subtle shiny sheen. It's giving Radiant tier polish on an Iron budget.
-- **Soft Pink Aesthetic**: Because black-and-red tactical HUDs are tired. Real agents wear blush pink.
-- **Accessibility & Performance**: Fully accessible with keyboard navigation and reduced-motion support, because the only thing lagging should be your match ping.
-
----
 
 ## Quick Start (Eco Round Friendly)
 
