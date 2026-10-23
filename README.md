@@ -1,8 +1,7 @@
-# VALORANT Protocol — Agent Registry
+# VALORANT Protocol Agent Registry
 
 A clean, aesthetic web dossier for 15 VALORANT Protocol operatives. Built for people who care more about agent lore than actually checking their corners in-game.
 
----
 
 ## What is this?
 
