@@ -28,4 +28,6 @@ No build process or installation is required.
 
 ![alt text](image.png)
 
-![alt text](image-1.png) Agent - Reyna 
+![alt text](image-1.png)
+
+ **Agent - Reyna** 
