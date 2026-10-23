@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="VALORANT Protocol agent registry — dossiers on 15 elite operatives." />
+  <meta name="theme-color" content="#fffbfb" />
+  <title>VALORANT Protocol — Agent Registry</title>
+  <link rel="stylesheet" href="styles.css" />
+
+  <noscript>
+    <style>
+      .reveal { opacity: 1 !important; transform: none !important; }
+      #card-grid::after {
+        content: "Enable JavaScript to load the agent registry.";
+        color: var(--color-muted);
+      }
+    </style>
+  </noscript>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <div class="scroll-progress" aria-hidden="true">
+    <div class="scroll-progress__fill" id="scroll-progress-fill"></div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header" id="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="logo" href="#top">VP<span>/</span>REGISTRY</a>
+
+      <button class="nav-toggle" id="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="sr-only">Toggle navigation menu</span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+        <span class="nav-toggle__bar" aria-hidden="true"></span>
+      </button>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#showcase">Showcase</a></li>
+        <li><a href="#agents">Agents</a></li>
+        <li><a href="#about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero" id="top">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+
+      <p class="hero-kicker reveal">VALORANT Protocol // 01 &mdash; 15</p>
+
+      <h1 class="hero-title reveal" style="--i: 1">
+        Fifteen agents.<br>
+        <span class="hero-title--accent">One protocol.</span>
+      </h1>
+
+      <p class="hero-subtitle reveal" style="--i: 2">
+        A classified operative registry spanning two Earths.
+      </p>
+
+      <div class="hero-actions reveal" style="--i: 3">
+        <a class="btn" href="#showcase">Explore Showcase</a>
+        <a class="btn btn--ghost" href="#agents">View Registry</a>
+      </div>
+
+      <div class="scroll-cue" aria-hidden="true">
+        <span>Scroll to explore</span>
+        <div class="scroll-cue__line"></div>
+      </div>
+    </section>
+
+    <!-- Showcase -->
+    <section class="roll-section" id="showcase" aria-label="Rolling agent showcase" tabindex="-1">
+      <div class="roll-sticky">
+        <div class="roll-inner">
+          <div class="roll-col roll-col--left">
+            <div class="roll-track" id="roll-titles"></div>
+          </div>
+          <div class="roll-col roll-col--right">
+            <div class="roll-track" id="roll-cards" aria-hidden="true"></div>
+          </div>
+        </div>
+        <p class="roll-hint" aria-hidden="true">Scroll to roll through the protocol &darr;</p>
+      </div>
+    </section>
+
+    <!-- Roster -->
+    <section class="agents" id="agents" aria-label="Agents">
+      <div class="section-header reveal">
+        <p class="section-kicker">Complete Registry</p>
+        <h2 class="section-title">All Operatives</h2>
+      </div>
+
+      <div class="roster-filters reveal" id="roster-filters" role="tablist" aria-label="Filter agents by combat role">
+        <button class="filter-btn is-active" type="button" data-filter="all" role="tab" aria-selected="true">All (15)</button>
+        <button class="filter-btn" type="button" data-filter="Controller" role="tab" aria-selected="false">Controllers (3)</button>
+        <button class="filter-btn" type="button" data-filter="Duelist" role="tab" aria-selected="false">Duelists (5)</button>
+        <button class="filter-btn" type="button" data-filter="Initiator" role="tab" aria-selected="false">Initiators (3)</button>
+        <button class="filter-btn" type="button" data-filter="Sentinel" role="tab" aria-selected="false">Sentinels (4)</button>
+      </div>
+
+      <div class="card-grid" id="card-grid"></div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading" class="reveal" style="--i: 0">About the Protocol</h2>
+
+      <div class="features">
+        <article class="feature reveal" style="--i: 1">
+          <h3>Field-verified dossiers</h3>
+          <p>Every agent record &mdash; real name, origin, classification and abilities &mdash; is taken directly from protocol lore files. Accurate, clean, and uncompromised.</p>
+        </article>
+
+        <article class="feature reveal" style="--i: 2">
+          <h3>The Radiant Roster</h3>
+          <p>Featuring elite operatives including Neon, the speedster whose bio-electric charge powers the Protocol's forward operations across dimensions.</p>
+        </article>
+
+        <article class="feature reveal" style="--i: 3">
+          <h3>Built for every screen</h3>
+          <p>Scroll-driven circular showcase on desktop, responsive card grid with role filters, and a graceful fallback when reduced motion is preferred.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+        <div class="footer-col footer-col--brand">
+          <p class="footer-logo">VP<span>/</span>REGISTRY</p>
+          <p class="footer-tagline">
+            Classified operative registry for the VALORANT Protocol. Fifteen operatives united to defend two worlds.
+          </p>
+          <div class="status-badge">
+            <span class="status-dot"></span>
+            <span>Protocol Grid Active // Earth-1</span>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#top">Overview</a></li>
+            <li><a href="#showcase">Circular Showcase</a></li>
+            <li><a href="#agents">All Operatives</a></li>
+            <li><a href="#about">About Protocol</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Combat Roles</h4>
+          <ul class="footer-links">
+            <li><a href="#agents" class="filter-link" data-role="Controller">Controllers (3)</a></li>
+            <li><a href="#agents" class="filter-link" data-role="Duelist">Duelists (5)</a></li>
+            <li><a href="#agents" class="filter-link" data-role="Initiator">Initiators (3)</a></li>
+            <li><a href="#agents" class="filter-link" data-role="Sentinel">Sentinels (4)</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Dossier Info</h4>
+          <p class="footer-note">
+            Unofficial fan-built registry. VALORANT and all agent names, assets, and trademarks are property of Riot Games, Inc.
+          </p>
+          <a class="footer-back-link" href="#top">&uarr; Back to top</a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; <span id="year">2026</span> VALORANT Protocol Registry. All rights reserved.</p>
+        <p class="footer-latency">Encrypted Channel // SEC-08</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
