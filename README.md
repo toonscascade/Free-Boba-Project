@@ -26,8 +26,6 @@ No build process or installation is required.
 - `script.js` — Agent dataset, orbital scroll calculations, and filtering logic.
  
 
-![alt text](image.png)
-
 ![alt text](image-1.png)
 
  **Agent - Reyna** 
